@@ -17,13 +17,13 @@ const montserrat = Montserrat({
 
 const SITE = "https://cordite-reloading.vercel.app";
 const DESC =
-  "Cordite builds precision ammunition reloading equipment in the USA — progressive presses, dies, powder measures, components and the support to run them.";
+  "Cordite builds precision ammunition reloading equipment in the USA - progressive presses, dies, powder measures, components and the support to run them.";
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE),
   title: {
-    default: "Cordite — Precision Reloading Equipment & Components",
-    template: "%s · Cordite",
+    default: "Cordite - Precision Reloading Equipment & Components",
+    template: "%s / Cordite",
   },
   description: DESC,
   applicationName: "Cordite",
@@ -38,12 +38,12 @@ export const metadata: Metadata = {
     type: "website",
     url: SITE,
     siteName: "Cordite",
-    title: "Cordite — Precision Reloading Equipment & Components",
+    title: "Cordite - Precision Reloading Equipment & Components",
     description: DESC,
   },
   twitter: {
     card: "summary_large_image",
-    title: "Cordite — Precision Reloading Equipment & Components",
+    title: "Cordite - Precision Reloading Equipment & Components",
     description: DESC,
   },
   robots: { index: true, follow: true },

@@ -7,7 +7,7 @@ export default function SupportStrip() {
       <div className="container support-inner">
         <div className="support-left reveal">
           <h3>Questions? Stuck on a Setup?</h3>
-          <p>Our crew reloads too. Give us a call or drop a line — we&apos;ll get you running.</p>
+          <p>Our crew reloads too. Give us a call or drop a line - we&apos;ll get you running.</p>
           <a className="support-phone" href={PHONE_HREF}>{PHONE}</a>
         </div>
         <div className="support-ctas reveal" data-d="1">

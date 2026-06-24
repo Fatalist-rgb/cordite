@@ -3,7 +3,7 @@ import { Truck, Shield, Headset } from "./icons";
 const ITEMS = [
   { Icon: Truck, title: "Fast, Tracked Shipping", text: "Free over $250, and most orders leave the dock in one to two days." },
   { Icon: Shield, title: "Made in the USA", text: "Designed, machined, and tested at our Arizona works." },
-  { Icon: Headset, title: "Lifetime Support", text: "Talk to people who reload — by phone, not a chatbot." },
+  { Icon: Headset, title: "Lifetime Support", text: "Talk to people who reload - by phone, not a chatbot." },
 ];
 
 export default function TrustBand() {

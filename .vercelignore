@@ -1,0 +1,9 @@
+source-assets/
+scripts/
+*-contact-sheet.jpg
+*-smoke.png
+*.log
+*.pid
+*.psd
+*.ai
+*.sketch

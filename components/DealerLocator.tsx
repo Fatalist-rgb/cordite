@@ -26,7 +26,7 @@ export default function DealerLocator() {
           <span className="eyebrow">Find a Dealer</span>
           <h2>Try One in Person</h2>
           <p>
-            Better yet — put your hands on a Cordite before you buy. Drop in your ZIP and we&apos;ll
+            Better yet - put your hands on a Cordite before you buy. Drop in your ZIP and we&apos;ll
             point you to the nearest authorized dealer.
           </p>
         </div>

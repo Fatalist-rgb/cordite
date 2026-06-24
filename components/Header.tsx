@@ -57,7 +57,7 @@ export default function Header() {
     <>
       <div className="promo-bar">
         <div className="promo-inner">
-          <span><strong>Free shipping</strong> on every order over ${FREE_SHIP} · limited time</span>
+          <span><strong>Free shipping</strong> on every order over ${FREE_SHIP} / limited time</span>
           <div className="promo-links">
             <a href="#" onClick={dead}>Sign In</a>
             <a href="#" onClick={dead}>Create Account</a>
@@ -77,7 +77,7 @@ export default function Header() {
           </a>
 
           <form className="search" role="search" onSubmit={(e) => e.preventDefault()}>
-            <input type="search" placeholder="Search presses, dies, components…" aria-label="Search" />
+            <input type="search" placeholder="Search presses, dies, components..." aria-label="Search" />
             <button type="submit" aria-label="Search"><Search /></button>
           </form>
 

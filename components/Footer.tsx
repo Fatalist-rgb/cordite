@@ -13,7 +13,7 @@ export default function Footer() {
         <div className="footer-grid">
           <div className="footer-info f-brand">
             <div className="wordmark">Cor<b>dite</b></div>
-            <p style={{ marginBottom: 18 }}>Precision reloading equipment — engineered, assembled, and tested in the USA.</p>
+            <p style={{ marginBottom: 18 }}>Precision reloading equipment - engineered, assembled, and tested in the USA.</p>
             <p><span className="label">Address</span>{ADDRESS}</p>
             <p><span className="label">Phone</span><a href={PHONE_HREF}>{PHONE}</a></p>
             <p><span className="label">Email</span><a href={`mailto:${EMAIL}`}>{EMAIL}</a></p>
@@ -32,15 +32,15 @@ export default function Footer() {
           <div className="footer-news">
             <h5>Stay in the Loop</h5>
             <p>
-              Showroom: Mon–Fri 9–5, Sat 9–1, closed Sunday.<br />
-              Phone orders &amp; support: Mon–Fri 7am–5pm.
+              Showroom: Mon-Fri 9-5, Sat 9-1, closed Sunday.<br />
+              Phone orders &amp; support: Mon-Fri 7am-5pm.
             </p>
             <SubscribeForm />
           </div>
         </div>
 
         <div className="footer-bottom">
-          <span className="by">© 2026 Cordite. All rights reserved. · Built by <strong>Paliy</strong></span>
+          <span className="by">(c) 2026 Cordite. All rights reserved. Built by <strong>Paliy</strong></span>
           <div className="footer-social">
             <DeadLink aria-label="Facebook"><Facebook /></DeadLink>
             <DeadLink aria-label="Instagram"><Instagram /></DeadLink>

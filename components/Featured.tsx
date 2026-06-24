@@ -2,10 +2,10 @@ import DeadLink from "./DeadLink";
 import { ArrowRight } from "./icons";
 
 const PRODUCTS = [
-  { name: "Rapid Primer Filler", eyebrow: "Upgrade", img: "/images/feat-primerfiller.svg", tag: "New", gold: true },
-  { name: "Auto-Align Decapping Die", eyebrow: "Dies & Tools", img: "/images/feat-decapping.svg", tag: "New" },
+  { name: "Rapid Primer Filler", eyebrow: "Upgrade", img: "/images/feat-primerfiller.jpg", tag: "New", gold: true },
+  { name: "Auto-Align Decapping Die", eyebrow: "Dies & Tools", img: "/images/feat-decapping.jpg", tag: "New" },
   { name: "Case Feeder", eyebrow: "Press Upgrade", img: "/images/feat-casefeeder.jpg" },
-  { name: "CR-8 Upgrade Kit", eyebrow: "Press Upgrade", img: "/images/feat-upgradekit.svg" },
+  { name: "CR-8 Upgrade Kit", eyebrow: "Press Upgrade", img: "/images/feat-upgradekit.jpg" },
 ];
 
 export default function Featured() {

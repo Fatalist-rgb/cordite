@@ -22,7 +22,7 @@ export default function SubscribeForm() {
       </div>
       <span className="news-note">
         {done
-          ? "You're on the list — watch your inbox."
+          ? "You're on the list - watch your inbox."
           : "Sale alerts, new gear, and reloading tips. No spam."}
       </span>
     </form>

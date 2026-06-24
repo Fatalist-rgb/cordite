@@ -2,12 +2,12 @@ import DeadLink from "./DeadLink";
 import { ArrowRight } from "./icons";
 
 const CATS = [
-  { label: "Caliber Conversion", img: "/images/cat-conversion.svg" },
-  { label: "Case Prep & Cleaning", img: "/images/cat-caseprep.svg" },
-  { label: "Powder Measures", img: "/images/cat-powder.svg" },
-  { label: "Parts & Maintenance", img: "/images/cat-parts.svg" },
-  { label: "Dies & Tools", img: "/images/cat-dies.svg" },
-  { label: "Components", img: "/images/cat-components.svg" },
+  { label: "Caliber Conversion", img: "/images/cat-conversion.jpg" },
+  { label: "Case Prep & Cleaning", img: "/images/cat-caseprep.jpg" },
+  { label: "Powder Measures", img: "/images/cat-powder.jpg" },
+  { label: "Parts & Maintenance", img: "/images/cat-parts.jpg" },
+  { label: "Dies & Tools", img: "/images/cat-dies.jpg" },
+  { label: "Components", img: "/images/cat-components.jpg" },
 ];
 
 export default function Categories() {

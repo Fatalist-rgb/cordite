@@ -15,8 +15,8 @@ type Slide = {
 
 const SLIDES: Slide[] = [
   {
-    bg: "/images/hero-decapping.svg",
-    badge: "New · Made in the USA",
+    bg: "/images/hero-decapping.jpg",
+    badge: "New / Made in the USA",
     gold: true,
     title: "Auto-Align Decapping Die",
     body:
@@ -27,20 +27,20 @@ const SLIDES: Slide[] = [
     ],
   },
   {
-    bg: "/images/hero-start.svg",
+    bg: "/images/hero-start.jpg",
     badge: "New to Reloading?",
     title: "Start Here. We'll Walk You Through It.",
     body:
-      "Not sure where to begin? Our press bundles arrive with everything you need to load your first few thousand rounds — and a crew on call when the questions start.",
+      "Not sure where to begin? Our press bundles arrive with everything you need to load your first few thousand rounds - and a crew on call when the questions start.",
     ctas: [{ label: "Shop Starter Kits", href: "#presses", variant: "primary" }],
   },
   {
-    bg: "/images/hero-primer.svg",
+    bg: "/images/hero-primer.jpg",
     badge: "Just Launched",
     gold: true,
     title: "Rapid Primer Filler",
     body:
-      "Load pickup tubes without the fuss. One tool handles large or small primers with a quick changeover — tubes topped off in seconds, so your time stays at the press.",
+      "Load pickup tubes without the fuss. One tool handles large or small primers with a quick changeover - tubes topped off in seconds, so your time stays at the press.",
     ctas: [
       { label: "See It", href: "#featured", variant: "gold" },
       { label: "All New Gear", href: "#featured", variant: "secondary" },
@@ -56,11 +56,10 @@ export default function Hero() {
   const go = (n: number) => setI((n + SLIDES.length) % SLIDES.length);
 
   useEffect(() => {
-    // restart the progress bar
     const p = prog.current;
     if (p) {
       p.classList.remove("running");
-      void p.offsetWidth; // force reflow so the transition replays
+      void p.offsetWidth;
       p.classList.add("running");
     }
     window.clearTimeout(timer.current);
