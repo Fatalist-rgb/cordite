@@ -51,7 +51,7 @@ export default async function OG() {
         <div style={{ display: "flex", flexDirection: "column", gap: 22 }}>
           <div style={{ display: "flex", height: 5, width: 280, backgroundImage: "linear-gradient(90deg, #085bb0 0%, #c8920a 100%)", borderRadius: 3 }} />
           <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", fontSize: 24 }}>
-            <div style={{ display: "flex", color: "#8c97a3" }}>cordite-reloading.vercel.app</div>
+            <div style={{ display: "flex", color: "#8c97a3" }}>cordite-gilt.vercel.app</div>
             <div style={{ display: "flex", color: "#e0a812", fontWeight: 600 }}>Built by Paliy</div>
           </div>
         </div>

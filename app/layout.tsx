@@ -15,7 +15,7 @@ const montserrat = Montserrat({
   display: "swap",
 });
 
-const SITE = "https://cordite-reloading.vercel.app";
+const SITE = "https://cordite-gilt.vercel.app";
 const DESC =
   "Cordite builds precision ammunition reloading equipment in the USA - progressive presses, dies, powder measures, components and the support to run them.";
 
